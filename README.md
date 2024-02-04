@@ -13,6 +13,10 @@ Following is a quick summary of the tests. Overall the GPT-4V model has performe
 - Capability to comprehend subtle situations. For instance:
     - An open flame resulting from cooking (such as the flambéing technique) is acceptable, but an uncontrolled flame necessitates immediate action.
     - A large lion in the house is okay if the person nearby seem unalarmed, but ...
+- Able to make commonsense assessment on the severity of a hazard. For example, [fire in the kitchen](#user-content-case-fire-in-the-kitchen) case, the GuardianBot is able to decide that it is urgent and require immediate attention.
+- Understanding priorities. For example, in the [fire in the kitchen](#user-content-case-fire-in-the-kitchen) case, when given three candidate persons to notified for a fire hazard, the GuardianBot choose the nearest person first.
+
+<!-- (#user-content-case-fiery-dish) -->
 
 ## Test Parameters
 
@@ -41,7 +45,7 @@ Note that the emphasis in the responses given below are mine.
     For future prevention, it's important to never leave cooking unattended, keep flammable materials away from the stove, and have a functioning smoke detector installed in your kitchen. If this alert is coming from a home mobile robot, it should be programmed to alert the residents immediately and, if possible, activate a built-in fire suppression system or call emergency services.
 
 ### Case: fiery dish
-![fiery dish](images/fiery_dish.png)
+![fiery dish](images/fiery_dish2.png)
 - Notes: contrast this with the uncontrolled fire above, to see if system can tell the two apart. Also demonstrated that GuardianBot's overly cautious advice can be tweaked with further dialog.
 - Response from OpenAI GPT-4V: The image shows an individual cooking with a pan that has caught fire. Despite the person's smile, this is a serious situation and immediate action should be taken to address the fire.
 
