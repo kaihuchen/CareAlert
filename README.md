@@ -94,3 +94,11 @@ Note that the emphasis in the responses given below are mine.
 - Notes: 
 - Response from OpenAI GPT-4V: 
 -->
+
+## Status of This Project
+
+The test cases are still being collected, and undergo constant update.
+
+## Other Resources
+
+- A separate collection of test cases intended for use to evaluate an LMM as the driver of a Level 5 autonomous car is available [HERE](https://github.com/kaihuchen/AutonomousBackseatDriver/blob/main/README.md).
