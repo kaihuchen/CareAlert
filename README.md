@@ -1,3 +1,4 @@
+
 # Evaluating Multimodal LLM's Use in Home Safety Monitoring
 
 *last updated February 3, 2024*
@@ -5,6 +6,12 @@
 This article introduces a set of test scenarios aimed at gauging the performance of a Large Multimodal Model (LMM) as an  **vision component of a fictitius home robot**, named GuardianBot. In these scenarios, the LLM takes on the role of a protector, with the responsibility to keep members of the household safe by spotting hazards and threats.
 
 The primary objective of these tests is to evaluate whether a given LMM has the **commonsense capacity** to identify **any scenarios in a household that may require further attention**, so that a certain people in charge can be notified. 
+
+# Table of Contents
+1. Test Summary
+2. Test Cases
+3. Status of This Project
+4. Other Resources
 
 ## Test Summary
 
@@ -136,3 +143,4 @@ The test cases are still being collected, and undergo constant update.
 ## Other Resources
 
 - A separate collection of test cases intended for use to evaluate an LMM as the driver of a Level 5 autonomous car is available [HERE](https://github.com/kaihuchen/AutonomousBackseatDriver/blob/main/README.md).
+
