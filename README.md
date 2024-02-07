@@ -82,11 +82,45 @@ Note that the emphasis in the responses given below are mine.
 
     Should this be a monitoring alert from a home mobile robot, it would be appropriate for the robot to approach and use its onboard systems to assess the person's consciousness and health status, potentially notifying family members or emergency services as programmed or as the situation requires.
 
+### Case: senior in distress
+![senior in distress](images/woman_hurting.jpg)
+- Notes: this is a baseline test for detecting household member in distress
+- Response from OpenAI GPT-4V: \
+    Section 1: Observations
+
+    The individual appears to be an elderly person who has fallen and is showing signs of distress or pain.
+    They seem to be reaching out, possibly for support or because of an inability to get up.
+    The environment is a domestic interior with hard flooring, which could contribute to injury during a fall.
+
+    Section 2: Recommended Actions
+
+    If the robot is capable, assist the individual to a safe and comfortable position, if not, provide support or cushioning to prevent further injury.
+    Provide reassurance to the individual and assess for any visible injuries or complaints of pain.
+
+    Section 3: Send Alert
+
+    CALL 911: Given the individual's apparent age and distress, as well as the potential for injury from a fall, emergency services should be contacted immediately to ensure professional medical care is provided.
+
 ### Case: cougar on deck
 ![cougar on deck](images/cougar_on_deck.jpg)
 
-- Notes: test correct identificatio of large wild animal around house
+- Notes: test correct identification of large wild animal around house. Note that in this case the GPT-4V foundation model has mis-identified the animal as a dog. This issue is studied in a separate report.
 - Response from OpenAI GPT-4V: 
+
+    Section 1: Observations
+
+    > There is a **dog** outside on a wet deck, potentially in the rain, and a cat inside looking at the dog through a glass door.
+    The dog appears to be wet and may have been outside for a while.
+    The weather appears to be poor, which could lead to the dog becoming cold or ill if left outside for too long.
+
+    Section 2: Recommended Actions
+
+    > Allow the dog inside to shelter from the weather and to dry off.
+    Ensure both pets have access to water and a warm, safe space.
+
+    Section 3: Send Alert
+
+    > ALERT: Notify the owner so they can ensure the dog is taken care of and is not left outside in bad weather. This is not urgent, but should be addressed when convenient.
 
 <!--
 ### Case: 
