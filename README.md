@@ -7,10 +7,10 @@ This article introduces a set of test scenarios aimed at gauging the performance
 
 The primary objective of these tests is to evaluate whether a given LMM has the **commonsense capacity** to identify **any scenarios in a household that may require further attention**, so that a certain people in charge can be notified. 
 
-# Table of Contents
-1. Test Summary
-2. Test Cases
-3. Status of This Project
+## Table of Contents
+1. [Test Summary](#user-content-test-summary)
+2. [Test Cases](#user-content-test-cases)
+3. [Status of This Project](#user-content-status-of-this-project)
 4. [Other Resources](#user-content-other-resources)
 
 ## Test Summary
