@@ -11,7 +11,7 @@ The primary objective of these tests is to evaluate whether a given LMM has the 
 1. Test Summary
 2. Test Cases
 3. Status of This Project
-4. Other Resources
+4. [Other Resources](#user-content-other-resources)
 
 ## Test Summary
 
